@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div>
+        <div class="appTitle">
+            <p>Weather App</p>
+        </div>
+        <div class="container">
+            <div class="weatherIcon"><img id="img" src="//cdn.weatherapi.com/weather/64x64/day/122.png" alt=""> </div>
+            <div class="weatherInfo">
+                <div class="temperature">-&deg;</div>
+                <div class="description">
+                    <div class="weatherCondition">-</div>
+                    <div class="location">-</div>
+                </div>
+                <div class="date">-</div>
+            </div>
+            <div id="bottomPage">
+                <input type="text" placeholder="Search for a city">
+                <button id="button">Search</button>
+                <button id="outfit">Outfit Sugestion</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+<div class="images">
+    <img id="outfitOne">
+    <img id="outfitTwo">
+    <img id="outfitThree">
+    <img id="outfitFour">
+</div>
+</html>

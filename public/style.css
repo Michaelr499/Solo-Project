@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #bde0fe;
+    font-family: 'Poiret One';
+    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container {
+    top: 39vh;
+    left: 86vh;
+    background-color: #a2d2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 30vh;
+    box-shadow: 1px 0px 15px #00000030;
+}
+
+.weatherInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.appTitle {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 5.5vh;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.description {
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.date {
+    padding: 10px;
+    font-size: 2vh;
+}
+
+#bottomPage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+#outfitOne {
+    height: 20%;
+    width: 20%;
+    margin-right: 15px;
+}
+
+#outfitTwo {
+    height: 20%;
+    width: 20%;
+    margin-right: 15px;
+}
+
+#outfitThree {
+    height: 20%;
+    width: 20%;
+    margin-right: 15px;
+}
+
+#outfitFour {
+    height: 20%;
+    width: 20%;
+}
+
+.images {
+    align-self: center;
+    margin-top: 200px;
+    margin-left: 80px;
+}
